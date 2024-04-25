@@ -44,6 +44,7 @@ function Navbar() {
         <span className="nav__hamburger__line"></span>
         <span className="nav__hamburger__line"></span>
         <span className="nav__hamburger__line"></span>
+        <span className="nav__hamburger__line"></span>
       </a>
       <div className={`navbar--items ${navActive ? "active" : ""}`}>
         <ul>
@@ -67,12 +68,12 @@ function Navbar() {
               activeClass="navbar--active-content"
               spy={true}
               smooth={true}
-              offset={-70}
+              offset={-20}
               duration={500}
-              to="MyPortfolio"
+              to="mySkills"
               className="navbar--content"
             >
-              Portfolio
+              My Skills
             </Link>
           </li>
           <li>
@@ -81,12 +82,26 @@ function Navbar() {
               activeClass="navbar--active-content"
               spy={true}
               smooth={true}
-              offset={-70}
+              offset={-20}
               duration={500}
               to="AboutMe"
               className="navbar--content"
             >
               About Me
+            </Link>
+          </li>
+          <li>
+            <Link
+              onClick={closeMenu}
+              activeClass="navbar--active-content"
+              spy={true}
+              smooth={true}
+              offset={5}
+              duration={500}
+              to="MyPortfolio"
+              className="navbar--content"
+            >
+              Portfolio
             </Link>
           </li>
         </ul>

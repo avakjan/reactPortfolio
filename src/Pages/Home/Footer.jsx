@@ -5,68 +5,8 @@ function Footer() {
   return (
     <footer className="footer--container">
       <div className="footer--link--container">
-        <div>
-          <img src="./img/logo.svg" alt="Logoipsum" />
-        </div>
-        <div className="footer--items">
-          <ul>
-            <li>
-              <Link
-                activeClass="navbar--active-content"
-                spy={true}
-                smooth={true}
-                offset={-70}
-                duration={500}
-                to="heroSection"
-                className="text-md"
-              >
-                Home
-              </Link>
-            </li>
-            <li>
-              <Link
-                activeClass="navbar--active-content"
-                spy={true}
-                smooth={true}
-                offset={-70}
-                duration={500}
-                to="MyPortfolio"
-                className="text-md"
-              >
-                Portfolio
-              </Link>
-            </li>
-            <li>
-              <Link
-                activeClass="navbar--active-content"
-                spy={true}
-                smooth={true}
-                offset={-70}
-                duration={500}
-                to="AboutMe"
-                className="text-md"
-              >
-                About Me
-              </Link>
-            </li>
-            <li>
-              <Link
-                activeClass="navbar--active-content"
-                spy={true}
-                smooth={true}
-                offset={-70}
-                duration={500}
-                to="Contact"
-                className="text-md"
-              >
-                Contact
-              </Link>
-            </li>
-          </ul>
-        </div>
         <div className="footer--social--icon">
           <ul>
-            
             <li>
               <a
                 href="https://www.instagram.com/"
@@ -76,8 +16,8 @@ function Footer() {
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  width="32"
-                  height="32"
+                  width="70"
+                  height="70"
                   viewBox="0 0 33 33"
                   fill="none"
                 >
@@ -99,8 +39,8 @@ function Footer() {
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  width="28"
-                  height="28"
+                  width="70"
+                  height="70"
                   viewBox="0 0 100 100"
                   fill="none"
                 >
@@ -120,8 +60,8 @@ function Footer() {
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  width="32"
-                  height="32"
+                  width="70"
+                  height="70"
                   viewBox="0 0 33 33"
                   fill="none"
                 >
