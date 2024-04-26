@@ -5,6 +5,20 @@ function Footer() {
   return (
     <footer className="footer--container">
       <div className="footer--link--container">
+
+        <div className="footer--contact">
+          <div className="footer--email">
+            <p onclick="copyEmailToClipboard()">
+              german@avakjan.ee
+            </p>
+          </div>
+          <div>
+            <p className="footer--phone--number">
+              +372 5841 6287
+            </p>
+          </div>
+        </div>
+
         <div className="footer--social--icon">
           <ul>
             <li>
@@ -17,8 +31,7 @@ function Footer() {
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="70"
-                  height="70"
-                  viewBox="0 0 33 33"
+                  viewBox="0 -2 33 33"
                   fill="none"
                 >
                   <path
@@ -39,9 +52,9 @@ function Footer() {
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  width="70"
+                  width="53"
                   height="70"
-                  viewBox="0 0 100 100"
+                  viewBox="0 -10 100 100"
                   fill="none"
                 >
                   <path
@@ -61,8 +74,7 @@ function Footer() {
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="70"
-                  height="70"
-                  viewBox="0 0 33 33"
+                  viewBox="0 -2 33 33"
                   fill="none"
                 >
                   <path

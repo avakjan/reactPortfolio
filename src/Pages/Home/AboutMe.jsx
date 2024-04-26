@@ -1,25 +1,15 @@
 export default function AboutMe() {
   return (
     <section id="AboutMe" className="about--section">
-      
+      <div className="about--section--img">
+        <img src="./img/german-avakjan.jpg" alt="Hero Section" />
+      </div>
       <div className="hero--section--content--box about--section--box">
         <div className="hero--section--content">
-          <h1 className="skills-section--heading">About Me</h1>
-          <p className="hero--section-description">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem
-            officiis sit debitis omnis harum sed veniam quasi dicta accusamus
-            recusandae? Voluptatem, reprehenderit alias? Eligendi aperiam
-            tempora numquam sint odit optio.
-          </p>
-          <p className="hero--section-description">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem
-            officiis sit debitis omnis harum sed veniam quasi dicta accusamus
-            recusandae?
+          <p className="about--section--description">
+            I'm studying computer science at TalTech University. My journey in tech started out of curiosity about how software can change things, and now, I'm all about creating meaningful solutions. I enjoy problem-solving and always look for new learning opportunities. These days, I'm really into software development, with a goal to contribute to projects that make a positive impact. Thanks for stopping by!
           </p>
         </div>
-      </div>
-      <div className="about--section--img">
-        <img src="./img/about-me.png" alt="About Me" />
       </div>
     </section>
   );
