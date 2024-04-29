@@ -28,24 +28,26 @@
   "portfolio": [
     {
       "id": "1",
-      "src": "./img/placeholder-image.png",
-      "title": "Ahuse",
+      "src": "./img/secure-vault.jpg",
+      "title": "Secure Vault",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
-      "link": "View In Github"
+      "link": "View In Github",
+      "href": "https://github.com/avakjan/SecureVault"
     },
     {
       "id": "2",
-      "src": "./img/placeholder-image-1.png",
-      "title": "App Dashboard",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
-      "link": "View In Github"
+      "src": "./img/illukas1 copy.png",
+      "title": "Architectural rendering",
+      "description": "Here you can find some of my archviz work. These were done in help of couple architecture students in EKA for their semester projects",
+      "link": "Take a Look"
     },
     {
       "id": "3",
-      "src": "./img/placeholder-image-2.png",
-      "title": "Easy Rentn",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
-      "link": "View In Github"
+      "src": "./img/moncelour.png",
+      "title": "moncelouR",
+      "description": "My journey in learning Adobe Photoshop possibilities and discovering the world of graphic design. Work pieces can be found by clicking on the logo",
+      "link": "View In Instagram",
+      "href": "https://www.instagram.com/moncelour/"
     }
   ]
 }
