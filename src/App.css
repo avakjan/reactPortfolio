@@ -190,6 +190,11 @@ h2 {
   top: 0;
   left: 0;
   right: 0;
+  transition: transform 0.3s ease-in-out;
+  z-index: 1000;
+}
+nav.nav-bar--hidden {
+  transform: translateY(-100%);
 }
 .navbar--items > ul {
   list-style: none;
@@ -201,6 +206,7 @@ h2 {
 .navbar--items ul > li > a {
   text-decoration: none;
 }
+
 /* Navbar Content */
 .navbar--content {
   color: var(--darkblue);
@@ -542,7 +548,6 @@ input[type="checkbox"] {
 }
 /* Contact End */
 
-/* Footer Start */
 /* Footer Starts */
 .footer--container {
   display: flex;
