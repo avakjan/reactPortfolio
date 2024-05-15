@@ -28,6 +28,14 @@
   "portfolio": [
     {
       "id": "1",
+      "src": "./img/veebiArstiKeskus.png",
+      "title": "Veebi Arstikeskus",
+      "description": "My journey in learning Adobe Photoshop possibilities and discovering the world of graphic design. Work pieces can be found by clicking on the logo",
+      "link": "View In Azure",
+      "href": "https://www.instagram.com/moncelour/"
+    },
+    {
+      "id": "2",
       "src": "./img/secure-vault.jpg",
       "title": "Secure Vault",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
@@ -35,14 +43,14 @@
       "href": "https://github.com/avakjan/SecureVault"
     },
     {
-      "id": "2",
+      "id": "3",
       "src": "./img/illukas1 copy.png",
       "title": "Architectural rendering",
       "description": "Here you can find some of my archviz work. These were done in help of couple architecture students in EKA for their semester projects",
       "link": "Take a Look"
     },
     {
-      "id": "3",
+      "id": "4",
       "src": "./img/moncelour.png",
       "title": "moncelouR",
       "description": "My journey in learning Adobe Photoshop possibilities and discovering the world of graphic design. Work pieces can be found by clicking on the logo",

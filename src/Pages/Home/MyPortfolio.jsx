@@ -13,7 +13,7 @@ export default function MyPortfolio() {
           <a href={item.href} key={index} className="portfolio--section--card" target="_blank" rel="noopener noreferrer">
             <div key={index} className="portfolio--section--card">
               <div className="portfolio--section--img">
-                <img src={item.src} alt="Placeholder" style={{ width: '100%', height: 'auto', maxWidth: '100%' }} />
+                <img src={item.src} alt="Placeholder"/>
               </div>
               <div className="portfolio--section--card--content">
                 <div>
