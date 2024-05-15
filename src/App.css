@@ -1,10 +1,14 @@
 /* Global CSS */
-
+@font-face {
+  font-family: 'Helvetica Neue';
+  src: url('/public/fonts/public/fonts/SF-Pro-Rounded-Light.otf') format('otf');
+  font-weight: normal;
+  font-style: normal;
+}
 body {
+  background: linear-gradient(to bottom, #dff0ff 20%, #e8fcff94 40%, #f5fcff 95%);
   margin: 0;
   font-family: "Roboto", sans-serif;
-  -webkit-font-smoothing: "Roboto", sans-serif;
-  -moz-osx-font-smoothing: "Roboto", sans-serif;
   font-style: normal;
 }
 h1,
@@ -24,6 +28,17 @@ p {
   --darkblue: #1c1e53;
   --black: #000000;
   --white: #ffffff;
+}
+::-webkit-scrollbar {
+  width: 17px;
+}
+::-webkit-scrollbar-thumb {
+  border: 5px solid #f4faff;
+  border-radius: 100vw;
+  background: rgb(112, 127, 156, 0.55);
+}
+::-webkit-scrollbar-track {
+  background: #f3fdff;
 }
 .btn {
   font-family: "Roboto";
@@ -93,13 +108,14 @@ h1 {
 h2 {
   font-size: 48px;
   font-weight: 700;
-  line-height: 58px;
 }
 /* Heading 3 */
 h2 {
-  font-size: 24px;
-  font-weight: 700;
-  line-height: 34px;
+  background-image: linear-gradient(to bottom, rgb(130 0 191 / 40%), rgb(65 194 220));
+  -webkit-background-clip: text;
+  color: transparent;
+  font-size: 4rem;
+  font-weight: 100;
 }
 
 /* Pragraphs text large medium small */
@@ -223,7 +239,7 @@ nav.nav-bar--hidden {
 /* Hero Section Style */
 .hero--section {
   display: flex;
-  background-color: var(--bg-shade);
+  background-color: #dff0ff;
   width: 100%;
   height: 110vh;
   align-items: center;
@@ -386,6 +402,7 @@ nav.nav-bar--hidden {
   border-radius: 8px;
 }
 .portfolio--section--img > img {
+  box-shadow: 10px 10px 40px -15px rgb(0 0 0 / 51%);
   width: 33vw;
   height: 32vh;
   border-radius: 15px;
