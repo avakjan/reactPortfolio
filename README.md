@@ -20,7 +20,7 @@ This project is a personal portfolio website built using React. It is designed t
 
 **Clone the repository:**
 ```
-git clone <repository-url>
+git clone https://github.com/avakjan/reactPortfolio.git
 cd reactPortfolio-main
 ```
 
