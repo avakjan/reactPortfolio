@@ -1,70 +1,101 @@
-# Getting Started with Create React App
+# Introduction
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+- This is a personal portfolio website built using React. It showcases my projects, skills, and contact information.
 
-## Available Scripts
+## :ledger: Index
 
-In the project directory, you can run:
+- [About](#beginner-about)
+- [Installation](#electric_plug-installation)
+- [Usage](#zap-usage)
+- [Pre-Requisites](#notebook-pre-requisites)
+- [Project Structure](#file_folder-file-structure)
+- [Dependencies](#dependencies)
+- [Features](#features)
 
-### `npm start`
+## :beginner: About
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+This project is a personal portfolio website built using React. It is designed to showcase my professional skills, projects, and experiences in a visually appealing and interactive manner. The website includes various sections such as an introduction, portfolio, skills, and contact information, providing a comprehensive view of my work and capabilities. The responsive design ensures optimal viewing on different devices, enhancing user experience. This project not only highlights my technical skills but also my design sensibility and attention to detail.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+##  :electric_plug: Installation
 
-### `npm test`
+**Clone the repository:**
+```
+git clone https://github.com/avakjan/reactPortfolio.git
+cd reactPortfolio-main
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+**Install the dependencies:**
+```
+npm install
+```
 
-### `npm run build`
+## :zap: Usage
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+**Run the development server:**
+```
+npm start
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+**Open http://localhost:{yourLocalhost} to view it in the browser.**
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+**Build for production:**
+```
+npm run build
+```
 
-### `npm run eject`
+### :notebook: Pre-Requisites
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- **Node.js**: Download and install it from [Node.js official website](https://nodejs.org/).
+- **npm**: Node Package Manager, comes with Node.js.
+- **Git**: Download and install it from [Git official website](https://git-scm.com/).
+- **Code Editor**: An IDE or code editor like Visual Studio Code, Sublime Text, or Atom.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+###  :file_folder: File Structure
+```
+.
+reactPortfolio-main/
+├── public/
+│   ├── favicon.ico
+│   ├── favicon.png
+│   ├── index.html
+│   ├── robots.txt
+│   ├── fonts/
+│   └── img/
+├── src/
+│   ├── Pages/
+│   │   ├── Home/
+│   │   │   ├── AboutMe.jsx
+│   │   │   ├── Footer.jsx
+│   │   │   ├── HeroSection.jsx
+│   │   │   ├── MyPortfolio.jsx
+│   │   │   ├── MySkills.jsx
+│   │   │   ├── Navbar.jsx
+│   │   │   └── Homescreen/
+│   │   │       └── index.jsx
+│   │   └── hooks/
+│   │       └── useScrollListener/
+│   │           └── index.js
+│   ├── data/
+│   │   └── index.json
+│   ├── App.css
+│   ├── App.js
+│   └── index.js
+├── .gitignore
+├── README.md
+├── package-lock.json
+└── package.json
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Dependencies
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- **React** - JavaScript library for building user interfaces
+- **React-DOM** - Entry point of the DOM-related rendering paths
+- **React-Scripts** - Configuration and scripts for Create React App
 
-## Learn More
+### Features
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Responsive design
+- Smooth scrolling
+- Interactive portfolio section
+- Skills showcase
+- Contact form
